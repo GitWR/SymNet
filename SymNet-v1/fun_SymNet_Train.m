@@ -1,5 +1,7 @@
 function [eigvector, eigvalue, elapse] = fun_SymNet_Train(options,gnd,data)
 
+% This KLDA code is from Dr. Deng Cai (courtesy) at http://www.cad.zju.edu.cn/home/dengcai/
+
 options.ReguAlpha = 0.01;
 K = data;
 clear data;
