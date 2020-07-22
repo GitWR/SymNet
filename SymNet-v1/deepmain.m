@@ -233,6 +233,6 @@ Class = predict(mdl,data_DR_test');
 accuracy_number = sum(Class'==Test_labels); % the right recognised samples
 accuracy = accuracy_number/b_test;
 
-fprintf(1,'the right classified test samples are£º%d\n',accuracy_number);
+fprintf(1,'the right classified test samples are: %d\n',accuracy_number);
 fprintf(1,'the classification accuracy is: %d\n',accuracy * 100);
 
