@@ -1,6 +1,6 @@
 clear;
 clc;
-% author：RuiWang
+% author: Rui Wang
 % department: School of artificial intelligence and computer science,Jiangnan university
 % version: 1.0
 
@@ -90,7 +90,7 @@ for i = 1:size(Train_labels,2)
         [u,v,w] = svd(temp);
         logv = log(diag(v));
         temp = u * diag(logv) * w';
-        temp_patch = mat2cell(temp,[2 2 2 2 2 2 2 2 2 2],[2 2 2 2 2 2 2 2 2 2]);%分层10个2*2的小矩阵
+        temp_patch = mat2cell(temp,[2 2 2 2 2 2 2 2 2 2],[2 2 2 2 2 2 2 2 2 2]);%路脰虏茫10赂枚2*2碌脛脨隆戮脴脮贸
         pooling = cellfun(@mean,cellfun(@mean,temp_patch,'UniformOutput',false));
         [u,v,w] = svd(pooling);
         logv = exp(diag(v));
@@ -233,6 +233,6 @@ Class = predict(mdl,data_DR_test');
 accuracy_number = sum(Class'==Test_labels); % the right recognised samples
 accuracy = accuracy_number/b_test;
 
-fprintf(1,'the right classified test samples are：%d\n',accuracy_number);
+fprintf(1,'the right classified test samples are拢潞%d\n',accuracy_number);
 fprintf(1,'the classification accuracy is: %d\n',accuracy * 100);
 
