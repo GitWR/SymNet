@@ -31,4 +31,10 @@ After a few seconds, the classification score will be output.
      year={2018}
      }
 
-# The code of its deep version, i.e., SymNet-v2, is coming soon. 
+# The code of its deep version, i.e., SymNet-v2, is in the folder of SymNet-v2.
+    if you want to run SymNet-v2, you should place the four .mat files to SymNet-v2 folder,firstly. Then, run deepmain_v2.m.
+    After a few seconds, the classification accuracy will be output.
+    
+# The Classification results of SymNet-v1 and SymNet-v2 on the FPHA dataset are listed as below:
+    (1) SymNet-v1: 81.04%
+    (2) SymNet-v2: 82.96%
