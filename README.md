@@ -1,5 +1,8 @@
 # SymNet
-This is the matlab implementation of the proposed lightweight cascaded SPD manifold network for SPD matrix nonlinear learning.
+This is the matlab implementation of the proposed lightweight cascaded SPD manifold deep lerning network for SPD matrix nonlinear learning.
+If you find this work is useful for your research, please kindly cite the following:
+    
+    Rui Wang, Xiao-Jun Wu, and Josef Kittler, "SymNet: A Simple Symmetric Positive Definite Manifold Deep Learning Method for Image Set Classification," in IEEE Transactions on     Neural Networks and Learning Systems, 2020.  
 
 # The folder SymNet-v1 contains three .m files:
 
